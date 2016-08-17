@@ -1,0 +1,11 @@
+/* fixed闪屏 */
+.ui-page {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Chrome and Safari */
+    -moz-backface-visibility: hidden; /* Firefox */
+}
+
+.noMarginAndPading {
+    margin: 0px;
+    padding: 0px;
+}
